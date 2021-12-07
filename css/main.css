@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 14px 0;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav__list li{
+    margin-right: 54px;
+}
+
+.nav__list li:last-child{
+    margin-right: 0;
+}
+
+.nav__list a{
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu__list li{
+    margin-right: 75px;
+}
+
+.menu__list li:last-child{
+    margin-right: 0;
+}
